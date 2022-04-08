@@ -1,0 +1,7 @@
+logging:
+  level:
+    com.selcukmeral.security: DEBUG
+  file: /logs/spring-security-jwt_app.log
+  pattern:
+    file: "%d %-5level [%thread] %logger : %msg%n"
+      

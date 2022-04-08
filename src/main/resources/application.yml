@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+    
+server:
+  port: 8080
+
+security:
+  config:
+    jwt:
+      header-name: X-Auth-Token
+      token-key: tokenSecret
+      token-issuer: spring-security-jwt
+      token-authorities-name: authorities
+      token-validity: 3600
